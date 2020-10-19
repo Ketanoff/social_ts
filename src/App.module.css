@@ -1,0 +1,26 @@
+
+.appWrapper {
+    display: grid;
+    margin: 0 auto;
+    width: 60%;
+    grid-template-areas: "h h" "n c";
+    /*grid-template-rows:  100%;*/
+    grid-template-columns: 1fr 4fr;
+
+}
+.appWrapperContent {
+    grid-area: c;
+    /*background-color: #204ac1;*/
+    grid-template-rows:  100%;
+    /*grid-gap: 2px;*/
+}
+.appWrapperContent img {
+    /*display: flex;*/
+    width: 100%;
+    height: 80px;
+      /*object-fit: cover;*/
+}
+
+.app {
+    /*background-color: #7dbd6b;*/
+}

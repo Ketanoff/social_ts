@@ -1,0 +1,13 @@
+.nav {
+    grid-area: n;
+    /*display: block;*/
+    /*background-color: darkkhaki;*/
+    /*grid-template-rows:  100%;*/
+}
+.item {
+    color: #195a4f;
+}
+
+.active {
+    color: #00278b;
+}
