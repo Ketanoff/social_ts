@@ -1,28 +1,19 @@
 import React from 'react';
 import s from './MyPosts.module.css';
 import Posts from './Posts/Posts';
-import {PostType} from '../../../redux/store';
 
-type MyPostsPropsType = {
-    post: Array<PostType>
+export type MyPostsType = {
+    message: string
+    likesCount: string
 }
 
-function MyPosts(props: MyPostsPropsType) {
-
-    let postsElements = props.post.map(p => <Posts message={p.message}
-                                                   likesCount={p.likesCount}/>);
-
+function MyPosts() {
     return (<div>
-        <h3 className={s.item}>MyPosts</h3>
-        <div>
-            <textarea>Введите сообщение</textarea>
-        </div>
-        <div>
-            <button>Add post</button>
-        </div>
-        <div>
-            {postsElements}
-        </div>
+        <div className={s.item}>MyPosts</div>
+        <Posts message='Hi, how are you?' likesCount='11'/>
+        <Posts message="i'm learn react" likesCount='111'/>
+        <Posts message="i'm learn GRID" likesCount='0'/>
+        <Posts message="i'm learn react" likesCount='22'/>
     </div>);
 }
 

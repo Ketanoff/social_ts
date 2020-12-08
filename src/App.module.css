@@ -1,5 +1,5 @@
 
-.app_Wrapper {
+.appWrapper {
     display: grid;
     margin: 0 auto;
     width: 60%;
@@ -8,18 +8,19 @@
     grid-template-columns: 1fr 4fr;
 
 }
-
-.app_Wrapper_Content {
+.appWrapperContent {
     grid-area: c;
     /*background-color: #204ac1;*/
     grid-template-rows:  100%;
     /*grid-gap: 2px;*/
 }
-
-.app_Wrapper_Content img {
+.appWrapperContent img {
     /*display: flex;*/
     width: 100%;
-    height: 180px;
-    /*object-fit: cover;*/
+    height: 80px;
+      /*object-fit: cover;*/
 }
 
+.app {
+    /*background-color: #7dbd6b;*/
+}

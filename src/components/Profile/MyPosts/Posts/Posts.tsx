@@ -1,13 +1,8 @@
 import React from 'react';
 import s from './Posts.module.css';
+import {MyPostsType} from '../MyPosts';
 
-type PostsPropsType ={
-    message: string
-    likesCount:number
-    
-}
-
-function Posts(props: PostsPropsType) {
+function Posts(props: MyPostsType) {
     return (
         <div className={s.item}>
             <img
