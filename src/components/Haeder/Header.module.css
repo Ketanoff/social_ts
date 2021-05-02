@@ -1,0 +1,13 @@
+.header {
+    grid-area: h;
+    /*position: fixed;*/
+    background-color: #fdfdfd;
+    /*object-fit: cover;*/
+}
+
+.header img {
+    display: block;
+    width: 40%;
+    height: 100%;
+    /*object-fit: cover;*/
+}
