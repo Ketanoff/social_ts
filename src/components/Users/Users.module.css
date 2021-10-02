@@ -1,0 +1,33 @@
+.users {
+    background-color: #86b6ae;
+    /*margin: 5px auto;*/
+}
+
+.usersPhoto {
+    margin: 5px;
+    /*weight: 10px;*/
+    height: 5rem;
+}
+
+.selectedPage {
+    font-weight: bold;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.cont {
+    position: relative;
+}
+
+.preloader {
+
+    height: 10rem;
+    opacity: .5;
+    display: flex;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
